@@ -105,7 +105,8 @@ width: 20%;
 }
 #servicesContainer{
     display: flex;
-    padding: 20px;
+    padding-top: 20px;
+    padding-bottom: 50px;
     column-gap: 20px;
     justify-content: space-evenly;
 }

@@ -2,6 +2,7 @@ import React from 'react'
 import Title from './Title'
 import ViewInArIcon from '@mui/icons-material/ViewInAr';
 import HomeIcon from '@mui/icons-material/Home';
+import GroupIcon from '@mui/icons-material/Group';
 
 const ServicesSection = () => {
     const arr = [
@@ -13,12 +14,12 @@ const ServicesSection = () => {
         {
             title: 'Find Roomate ',
             description: 'You can find a roomate who have liking for the same house',
-            icon: <ViewInArIcon id='ServiceIcon' />
+            icon: <GroupIcon id='ServiceIcon' />
         },
         {
             title: 'Rent Room',
             description: 'After selecting the room start the renting process',
-            icon: <ViewInArIcon id='ServiceIcon' />
+            icon: <HomeIcon id='ServiceIcon' />
         },
     ]
   return (
